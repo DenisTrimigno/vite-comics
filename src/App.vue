@@ -23,6 +23,7 @@ export default {
   </div>
 </template>
 
-<style lang="">
+<style lang="scss">
+  @use './styles/generals.scss' as *;
   
 </style>
