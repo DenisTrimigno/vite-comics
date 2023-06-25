@@ -63,8 +63,8 @@ export default {
         <img src="../assets/img/dc-logo.png" alt="">
     </a>
         <ul>
-            <li v-for="(link, index) in links" :key="index">
-                <a :href="link.href" :active="link.active ? 'active' : ''">
+            <li v-for="(link, index) in links" :key="index" :class="link.active ? 'active' : ''">
+                <a :href="link.href" >
                     {{ link.label }}
                 </a>
             </li>
