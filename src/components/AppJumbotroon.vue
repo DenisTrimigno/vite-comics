@@ -10,8 +10,8 @@ name: "AppJumbotroon"
 
 <template>
     <section>
-        <div>
-             <img src="assets/img/dc-logo-bg.png" alt="">
+        <div class="container ">
+             <img class="logo-j" src="../assets/img/dc-logo-bg.png" alt="">
         </div>
        
     </section>
@@ -21,7 +21,12 @@ name: "AppJumbotroon"
    section{
     background-image: url('../assets/img/footer-bg.jpg');
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
 
+   }
+
+   .logo-j {
+    margin-left: 90vh;
+    width: 140vh;
    }
 </style>

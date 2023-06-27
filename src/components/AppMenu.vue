@@ -72,7 +72,7 @@ export default {
 <style lang="scss" scoped>
 
 section{
-    height: 20vh;
+    height: 25vh;
     background-color:  #0282F9;
 
     .card{
