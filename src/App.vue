@@ -4,6 +4,7 @@ import AppContent from './components/AppContent.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppMenu from './components/AppMenu.vue';
 import AppJumbotroon from './components/AppJumbotroon.vue';
+import AppJumbo from './components/AppJumbo.vue';
 
 export default {
   components: {
@@ -11,7 +12,8 @@ export default {
     AppContent,
     AppFooter,
     AppMenu,
-    AppJumbotroon
+    AppJumbotroon,
+    AppJumbo,
   }
   
 }
@@ -24,8 +26,8 @@ export default {
     <AppContent/>
     <AppMenu/>
     <AppJumbotroon/>
+    <AppJumbo/>
     <AppFooter/>
-    
   </div>
 </template>
 
