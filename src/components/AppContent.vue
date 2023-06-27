@@ -21,14 +21,7 @@ export default {
     </div>
     <div class="blue">
       <div class="container">
-        <ul>
-          <li v-for="(link, index) in links" :key="index" :class="link.active ? 'active' : ''">
-                <a :href="link.href" >
-                    {{ link.label }}
-                </a>
-
-          </li>
-        </ul>
+      
       </div>
     </div>
   
