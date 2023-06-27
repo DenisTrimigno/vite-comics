@@ -26,7 +26,6 @@ export default {
     <AppContent/>
     <AppMenu/>
     <AppJumbotroon/>
-    <AppJumbo/>
     <AppFooter/>
   </div>
 </template>

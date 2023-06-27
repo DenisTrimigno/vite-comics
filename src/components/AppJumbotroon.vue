@@ -41,11 +41,11 @@ name: "AppJumbotroon",
             
         <div class="lists">
             <ul v-for="(itm,index) in jumboList">
-              <h4>{{itm.nameList}}</h4>
+                <h4>{{itm.nameList}}</h4>
               <li v-for="(element) in jumboList[index].liss"><a href="">{{element}}</a></li>
             </ul>
         </div>
-        
+
              <img class="logo-j" src="../assets/img/dc-logo-bg.png" alt="">
         </div>
        
@@ -53,19 +53,54 @@ name: "AppJumbotroon",
 </template>
 
 <style lang="scss" scoped>
+
    section{
+    width: 100%;
     background-image: url('../assets/img/footer-bg.jpg');
     background-size: cover;
     height: 120vh;
 
-   }
-
-   .logo-j {
+     .logo-j {
     margin-left: 90vh;
     width: 140vh;
    }
+  
+.container{
+   .lists{
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
-   ul{
+    h4{ color: white;
+        margin-bottom: 10px;
+            }
+            ul{
+                margin-right: 30px;
+                margin-bottom: 20px;
+                list-style: none;
 
-   }
+                li{
+                    a{
+                    
+                    text-decoration: none;
+                    font-size: small;
+                    color: rgb(170, 170, 170);
+                    }
+                }
+        
+        
+    }
+
+
+   
+}
+
+   
+
+    }
+    
+
+    }
 </style>
