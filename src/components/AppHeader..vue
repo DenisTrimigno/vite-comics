@@ -4,7 +4,7 @@ export default {
         return{
             links: [
                 {
-                    label: 'CARACTHERS',
+                    label: 'CHARACTERS',
                     href: '#',
                     active: false
                 },
