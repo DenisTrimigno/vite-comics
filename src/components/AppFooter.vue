@@ -47,6 +47,12 @@ methods: {
 </template>
 
 <style lang="scss">
+
+footer {
+  display: inline-block;
+  width: 100%;
+}
+
   .background-black{
     background-color: rgb(45, 45, 45);
     height: 20vh;
@@ -62,7 +68,7 @@ methods: {
   }
 
   h4{
-    margin-right: 40px;
+    margin-right: 50px;
     color:rgb(0, 132, 255) ;
   }
 
