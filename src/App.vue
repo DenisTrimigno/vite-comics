@@ -23,6 +23,7 @@ export default {
   <div>
 
     <AppHeader/>
+    <AppJumbo/>
     <AppContent/>
     <AppMenu/>
     <AppJumbotroon/>
