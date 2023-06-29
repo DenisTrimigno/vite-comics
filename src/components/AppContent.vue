@@ -159,11 +159,16 @@
     .card_series{
 
         margin-right: 10px;
-        margin-bottom: 15px;
+        margin-bottom: 150px;
         width: calc(100% / 6 - 10px);
         text-align: center;
         color: white;
-        max-height: 270px;
+        max-height: 200px;
+img {
+  width: 280px;
+  height: 300px;
+}
+
 
         
         p{
